@@ -1,10 +1,10 @@
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
-    center: true,
+    center: false,
     items: 3,
-    nav: true,
     margin: 30,
     loop: true,
+    autoHeight: true,
     responsive: {
       0: {
         items: 1,
