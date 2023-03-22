@@ -1,0 +1,12 @@
+.title-page{
+    overflow: hidden;
+    position: relative;
+}
+
+.comming-page .myPage{
+    padding: 218px 0 212px;
+}
+
+.parallax2{
+    background-image: url("http://themesflat.com/html/modaz/images/parallax/bg-parallax2.jpg");
+}

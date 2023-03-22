@@ -1,0 +1,212 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,500,600,700|";
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ.woff2) format('woff2');
+}
+
+
+.bodu{
+    font: 14px/26px "Poppins",sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    color: #6e6e6e;
+}
+.boxed{
+    overflow: hidden;
+    position: relative;
+}
+.parallax .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    
+.flat-row.flat-coming-soon {
+    padding: 218px 0 212px;
+}
+
+
+
+.parallax2 {
+    background-image: url("http://themesflat.com/html/modaz/images/parallax/bg-parallax2.jpg");
+}
+
+.parallax {
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.flat-row {
+    clear: both;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap-coming-soon {
+    color: #fff
+}
+
+.wrap-coming-soon .header-coming-soon {
+    margin-bottom: 42px
+}
+
+.wrap-coming-soon .header-coming-soon h2.sup-title {
+    line-height: 58px;
+    color: #fff
+}
+
+.wrap-coming-soon .header-coming-soon .title {
+    font-size: 72px;
+    line-height: 90px;
+    font-weight: 500
+}
+
+.wrap-countdown {
+    margin-bottom: 55px
+}
+
+.countdown .square {
+    display: inline-block
+}
+
+.countdown .square .numb {
+    font-size: 48px;
+    line-height: 90px;
+    font-weight: 500;
+    color: #333;
+    width: 90px;
+    height: 90px;
+    background: rgba(255,255,255,.9);
+    text-align: center;
+    margin: 0 35px 18px
+}
+
+.countdown .square .text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500
+}
+
+.countdown.style-1 .square .numb {
+    color: #f63440;
+    margin: 0 15px 8px
+}
+
+.countdown.style-1 .square .text {
+    text-transform: uppercase
+}
+
+.flat-button button {
+    margin: 0 9px
+}
+
+.flat-button button.bg-white {
+    background: #fff;
+    color: #f63440
+}
+
+.flat-button button.bg-white:hover {
+    color: #fff
+}
+
+.themesflat-button {
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 43px
+}
+
+.themesflat-button.bg-accent {
+    background-color: #f63440;
+    color: #fff;
+    line-height: 47px;
+    padding: 0 47px
+}
+
+.themesflat-button.has-shadow {
+    box-shadow: 0 5px 19px 1px rgba(36,11,12,.15)
+}
+
+.themesflat-button.bg-accent:hover {
+    background-color: #333
+}
+
+.themesflat-button.bg-white {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fff
+}
+
+.themesflat-button.width-150 {
+    width: 150px
+}
+
+.themesflat-button.has-padding-36 {
+    padding: 0 36px
+}
+
+.themesflat-button.has-padding-41 {
+    padding: 0 41px!important
+}
+
+.themesflat-button.has-padding-43 {
+    padding: 0 43px!important
+}
+
+.themesflat-button.outline {
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0 33px
+}
+
+.themesflat-button.outline.ol-accent {
+    border-color: #f63440;
+    color: #f63440
+}
+
+.themesflat-button.bg-transparent {
+    background-color: transparent;
+    color: #333;
+    text-transform: none
+}
+
+.themesflat-button:hover {
+    background-color: #f63440;
+    color: #fff
+}
+
+.themesflat-button.outline.ol-accent:hover {
+    background-color: #f63440;
+    color: #fff
+}
+
+.themesflat-button.bg-transparent:hover {
+    color: #f63440;
+    background-color: transparent
+}

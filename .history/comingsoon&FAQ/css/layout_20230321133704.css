@@ -1,0 +1,15 @@
+.fullBackgroud {
+    /* background-image: url(../Assets/Images/bg-parallax2.jpg);
+    width: 50%; */
+}
+
+
+.boxed{
+    background: rgb(0,0,0,5);
+}
+
+img{
+    width: 100%;
+    background: rgb(0,0,0,5);
+}
+
