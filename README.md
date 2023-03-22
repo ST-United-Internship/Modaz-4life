@@ -16,7 +16,7 @@ git clone git@github.com:ST-United-Internship/Modaz-4life
 ## Checkout branch
 
 ```php
-git checkout -b your-name/your-feature-name
+git checkout -b feat/SEC-03/category-ui
 ```
 
 ## Create your component and css file
