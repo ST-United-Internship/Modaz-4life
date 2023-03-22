@@ -1,0 +1,1 @@
+const second = document.querys

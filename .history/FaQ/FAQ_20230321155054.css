@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.container .text-center{
+    line-height: 58px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}

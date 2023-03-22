@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page-title {
+    position: relative;
+    padding: 76px 0 77px;
+    text-align: center;
+}
+
+.parallax1 {
+    background-image: url("http://themesflat.com/html/modaz/images/parallax/bg-parallax1.jpg");
+}
+
+
+.breadc
