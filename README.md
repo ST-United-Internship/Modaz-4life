@@ -19,6 +19,12 @@ git clone git@github.com:ST-United-Internship/Modaz-4life
 git checkout -b feat/SEC-03/category-ui
 ```
 
+## Commit rule
+
+```php
+git commit -m "SEC-03: Done trend UI"
+```
+
 ## Create your component and css file
 
 You need to import css "css/common.css" file into your component html fil
