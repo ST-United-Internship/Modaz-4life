@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/service-component.css" />
     <!-- Trending component css -->
     <link rel="stylesheet" href="css/trending-component.css" />
+    <!-- Owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
   </head>
   <body>
     <!-- Service component -->
@@ -49,21 +54,17 @@
     </section>
     <!-- End service component -->
 
-
-    <!-- Trending component -->
-    <section class="trending-container-fluid">
-      <!-- Title -->
+    <!-- Trending -->
+    <section class="my-container trending-container">
       <h1 class="trending-title">New Latest</h1>
 
-      <div class="container trending-container">
-        <div class="trending-item data-effect-item">
+      <div class="owl-carousel" id="trending-carousel-container">
+        <div class="dh-container">
           <img
-            alt="Image"
             src="https://themesflat.com/html/modaz/images/blog/new-lastest-1-370x280.jpg"
+            alt=""
           />
-
-          <!-- Background content -->
-          <div class="content-item">
+          <div class="dh-overlay">
             <p>Trend 2018</p>
             <p>OCT 08.2018 | BY ADMIN</p>
             <p>
@@ -74,14 +75,12 @@
           </div>
         </div>
 
-        <div class="trending-item data-effect-item">
+        <div class="dh-container">
           <img
-            alt="Image"
             src="https://themesflat.com/html/modaz/images/blog/new-lastest-2-370x280.jpg"
+            alt=""
           />
-
-          <!-- Background content -->
-          <div class="content-item">
+          <div class="dh-overlay">
             <p>Trend 2018</p>
             <p>OCT 08.2018 | BY ADMIN</p>
             <p>
@@ -92,14 +91,60 @@
           </div>
         </div>
 
-        <div class="trending-item data-effect-item">
+        <div class="dh-container">
           <img
-            alt="Image"
-            src="https://themesflat.com/html/modaz/images/blog/new-lastest-2-370x280.jpg"
+            src="https://themesflat.com/html/modaz/images/blog/new-lastest-3-370x280.jpg"
+            alt=""
           />
+          <div class="dh-overlay">
+            <p>Trend 2018</p>
+            <p>OCT 08.2018 | BY ADMIN</p>
+            <p>
+              This is Heading the bank manager long ago won the battle for the
+              heart of...
+            </p>
+            <p>READ MORE</p>
+          </div>
+        </div>
 
-          <!-- Background content -->
-          <div class="content-item">
+        <div class="dh-container">
+          <img
+            src="https://themesflat.com/html/modaz/images/blog/new-lastest-1-370x280.jpg"
+            alt=""
+          />
+          <div class="dh-overlay">
+            <p>Trend 2018</p>
+            <p>OCT 08.2018 | BY ADMIN</p>
+            <p>
+              This is Heading the bank manager long ago won the battle for the
+              heart of...
+            </p>
+            <p>READ MORE</p>
+          </div>
+        </div>
+
+        <div class="dh-container">
+          <img
+            src="https://themesflat.com/html/modaz/images/blog/new-lastest-2-370x280.jpg"
+            alt=""
+          />
+          <div class="dh-overlay">
+            <p>Trend 2018</p>
+            <p>OCT 08.2018 | BY ADMIN</p>
+            <p>
+              This is Heading the bank manager long ago won the battle for the
+              heart of...
+            </p>
+            <p>READ MORE</p>
+          </div>
+        </div>
+
+        <div class="dh-container">
+          <img
+            src="https://themesflat.com/html/modaz/images/blog/new-lastest-3-370x280.jpg"
+            alt=""
+          />
+          <div class="dh-overlay">
             <p>Trend 2018</p>
             <p>OCT 08.2018 | BY ADMIN</p>
             <p>
@@ -111,12 +156,26 @@
         </div>
       </div>
     </section>
-    <!-- End Trending component -->
-    
+    <!-- End slide trending -->
+
     <!-- font-awesome -->
     <script
       src="https://kit.fontawesome.com/81aaccc8c8.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/trending-component/carousel/script.js"></script>
+
+    <!-- Hover -->
+    <script src="js/trending-component/hover/directional-hover/jquery.directional-hover.min.js"></script>
+    <script src="js/trending-component/hover/script.js"></script>
   </body>
 </html>
