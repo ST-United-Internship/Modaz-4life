@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modaz.</title>
-    <!-- Common css -->
-    <link rel="stylesheet" href="css/common.css" />
+
+    <!-- Category component css -->
+    <link rel="stylesheet" href="css/category-component.css" />
     <!-- Service component css -->
     <link rel="stylesheet" href="css/service-component.css" />
     <!-- Trending component css -->
@@ -16,11 +17,71 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
+
+    <!-- Common css -->
+    <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
+    <!-- Category component -->
+    <section class="my-container category-container">
+      <div class="dh-container category-item">
+        <img
+          alt="image"
+          src="http://themesflat.com/html/modaz/images/image-box/imgbox-1-375x500.jpg"
+        />
+
+        <div class="category-btn">
+          <p>FOR MEN'S</p>
+        </div>
+
+        <div class="dh-overlay"></div>
+      </div>
+
+      <div class="category-item">
+        <div class="dh-container">
+          <img
+            alt="image"
+            src="http://themesflat.com/html/modaz/images/image-box/imgbox-1-375x240.jpg"
+          />
+          <div class="category-btn">
+            <p>FOR KID'S</p>
+          </div>
+
+          <div class="dh-overlay"></div>
+        </div>
+
+        <div class="dh-container">
+          <img
+            alt="image"
+            src="http://themesflat.com/html/modaz/images/image-box/imgbox-2-375x240.jpg"
+          />
+
+          <div class="category-btn">
+            <p>accessories</p>
+          </div>
+
+          <div class="dh-overlay"></div>
+        </div>
+      </div>
+
+      <div class="dh-container category-item">
+        <img
+          alt="image"
+          src="http://themesflat.com/html/modaz/images/image-box/imgbox-2-375x500.jpg"
+        />
+
+        <div class="category-btn">
+          <p>FOR WOMEN'S</p>
+        </div>
+
+        <div class="dh-overlay"></div>
+      </div>
+    </section>
+    <!-- End category component -->
+
     <!-- Service component -->
     <section class="service-container-fluid">
-      <div class="container service-container">
+      <div class="my-container service-container">
         <div class="service-item">
           <p><i class="fa-solid fa-truck"></i></p>
           <a class="link">Free Shipping</a>
@@ -172,10 +233,10 @@
     ></script>
     <!-- Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="js/trending-component/carousel/script.js"></script>
+    <script src="js/carousel/script.js"></script>
 
     <!-- Hover -->
-    <script src="js/trending-component/hover/directional-hover/jquery.directional-hover.min.js"></script>
-    <script src="js/trending-component/hover/script.js"></script>
+    <script src="js/hover/directional-hover/jquery.directional-hover.min.js"></script>
+    <script src="js/hover/script.js"></script>
   </body>
 </html>

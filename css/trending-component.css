@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
-.trending-container {
-  width: 80%;
-}
+
 .trending-container h1:nth-child(1) {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -29,7 +27,7 @@
 
 /* Hover */
 
-.dh-container {
+.trending-container .dh-container {
   position: relative;
   display: inline-block;
   background-repeat: no-repeat;
@@ -41,11 +39,14 @@
   height: auto;
 }
 
-.dh-overlay {
+.trending-container .dh-overlay {
   position: absolute;
   top: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.dh-overlay {
+.trending-container .dh-overlay {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
@@ -98,7 +99,7 @@
 }
 /*Ipad ngang(1024 x 768)*/
 @media screen and (max-width: 1024px) {
-  .trending-container {
+  .my-container {
     width: 75%;
   }
   .dh-overlay > p:nth-child(1) {
@@ -124,7 +125,7 @@
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px) {
-  .trending-container {
+  .my-container {
     width: 85%;
   }
   .dh-overlay > p:nth-child(1) {
@@ -151,7 +152,7 @@
 
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (max-width: 480px) {
-  .trending-container {
+  .my-container {
     width: 95%;
   }
 
@@ -182,7 +183,7 @@
 }
 /*Iphone(480 x 640)*/
 @media screen and (max-width: 320px) {
-  .trending-container {
+  .my-container {
     width: 95%;
   }
 
@@ -209,7 +210,7 @@
 }
 /*Smart phone nhỏ*/
 @media screen and (max-width: 240px) {
-  .trending-container {
+  .my-container {
     width: 95%;
   }
 
@@ -236,7 +237,7 @@
 }
 /* Smart watch */
 @media screen and (max-width: 240px) {
-  .trending-container {
+  .my-container {
     width: 100%;
   }
 
