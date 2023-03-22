@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="../css/common.css" />
+
+    <!-- Horizontal header -->
+    <link
+      rel="stylesheet"
+      href="../css/header/horizontal-header-component.css"
+    />
+    <!-- Vertical header -->
+    <link rel="stylesheet" href="../css/header/vertical-header-component.css" />
+
+    <!-- Bootsrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <section class="my-container header-container">
+      <div class="header-logo">
+        <img
+          alt="logo header"
+          src="http://themesflat.com/html/modaz/images/logo@2x.png"
+        />
+      </div>
+
+      <div class="main-menu">
+        <ul>
+          <li>HOME</li>
+          <li>
+            SHOP
+            <ul class="sub-menu">
+              <li>Shop Layouts</li>
+              <li>Shop Details</li>
+            </ul>
+          </li>
+          <li>
+            PAGE
+            <ul class="sub-menu">
+              <li>Coming soon</li>
+              <li>Shop Details</li>
+            </ul>
+          </li>
+          <li>
+            BLOG
+            <ul class="sub-menu">
+              <li>Blog Gird Full</li>
+              <li>Blog Details</li>
+            </ul>
+          </li>
+          <li>CONTRACT</li>
+        </ul>
+
+        <!-- Space div -->
+        <div class="space-div"></div>
+        <!-- End space -->
+        <div class="extra-menu">
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vertical nav -->
+    <section class="my-container vertical-header-container">
+      <div class="menu-bar">
+        <div class="vertical-header-logo">
+          <img
+            alt="logo header"
+            src="http://themesflat.com/html/modaz/images/logo@2x.png"
+          />
+        </div>
+
+        <div class="menu-bar-icon" id="btn-menu-bar">
+          <i id="icon-btn" class="bi bi-list"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Item menu -->
+    <div class="vertical-item-menu" id="vertical-item-menu">
+      <ul class="item-menu">
+        <li>
+          <div class="item-link">
+            HOME
+            <span class="arrow-icon"><i class="bi bi-chevron-down"></i></span>
+          </div>
+        </li>
+
+        <li>
+          <div class="item-link" id="shop-item">
+            SHOP
+            <span class="arrow-icon"
+              ><i id="shop-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="shop-item-sub">
+            <li>
+              <div class="item-link">Shop Layouts</div>
+            </li>
+            <li>
+              <div class="item-link">Shop Details</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link" id="page-item">
+            Page
+            <span class="arrow-icon"
+              ><i id="page-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="page-item-sub">
+            <li>
+              <div class="item-link">Coming soon</div>
+            </li>
+            <li>
+              <div class="item-link">Shop Details</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link" id="blog-item">
+            Blog
+            <span class="arrow-icon"
+              ><i id="blog-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="blog-item-sub">
+            <li>
+              <div class="item-link">Blog Gird Full</div>
+            </li>
+
+            <li>
+              <div class="item-link">Blog Detail</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link">
+            Contract
+            <span class="arrow-icon"
+              ><i id="shop-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- End Vertical nav -->
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/81aaccc8c8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../js/header/header.js"></script>
+  </body>
+</html>
