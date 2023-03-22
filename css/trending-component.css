@@ -8,7 +8,9 @@
   font-weight: 500;
   line-height: 66px;
 }
-
+/* .owl-item {
+  width: auto !important;
+} */
 .trending-title {
   position: relative;
   width: 100%;
@@ -33,7 +35,7 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-.dh-container img {
+.trending-container .dh-container img {
   display: block;
   width: 100%;
   height: auto;
