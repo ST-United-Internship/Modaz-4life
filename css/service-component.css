@@ -57,3 +57,38 @@
     width: 100%;
   }
 }
+
+/* 4K TV */
+@media screen and (max-width: 2560px) {
+  .service-container {
+    width: 55%;
+  }
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+  .service-container {
+    width: 75%;
+  }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .service-container {
+    width: 85%;
+  }
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .service-container {
+    width: 95%;
+  }
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .trending-container {
+    width: 95%;
+  }
+}
