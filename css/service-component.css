@@ -3,6 +3,7 @@
 .service-container-fluid {
   background-color: #f5f5f5;
   width: 100%;
+  margin-top: 20px;
 }
 
 /* Service container flex layout */
@@ -48,8 +49,14 @@
   color: #f63440;
 }
 /* Responsive */
+
+@media screen and (max-width: 1024px) {
+  .my-container {
+    width: 75%;
+  }
+}
 @media only screen and (max-width: 765px) {
-  .service-container {
+  .my-container {
     flex-direction: column;
     align-items: center;
   }
@@ -58,37 +65,30 @@
   }
 }
 
-/* 4K TV */
-@media screen and (max-width: 2560px) {
-  .service-container {
-    width: 55%;
-  }
-}
-
 /*Ipad ngang(1024 x 768)*/
 @media screen and (max-width: 1024px) {
-  .service-container {
+  .my-container {
     width: 75%;
   }
 }
 
 /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px) {
-  .service-container {
+  .my-container {
     width: 85%;
   }
 }
 
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (max-width: 480px) {
-  .service-container {
+  .my-container {
     width: 95%;
   }
 }
 
 /*Iphone(480 x 640)*/
 @media screen and (max-width: 320px) {
-  .trending-container {
+  .my-container {
     width: 95%;
   }
 }

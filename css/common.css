@@ -9,3 +9,42 @@
 *::after {
   box-sizing: border-box;
 }
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+  .my-container {
+    width: 75%;
+  }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .my-container {
+    width: 85%;
+  }
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .my-container {
+    width: 95%;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .my-container {
+    width: 95%;
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+  .my-container {
+    width: 95%;
+  }
+}
+/* Smart watch */
+@media screen and (max-width: 240px) {
+  .my-container {
+    width: 100%;
+  }
+}
