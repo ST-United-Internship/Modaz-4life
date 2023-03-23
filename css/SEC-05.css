@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+
+.flat-row {
+  background-image: url("	https://themesflat.com/html/modaz/images/parallax/bg-parallax3.jpg");
+  background-position: 50% 8px;
+  padding: 98px 0px 98px;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.flat-row > .scontainer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sup-title {
+  font-size: 24px;
+  line-height: 26px;
+  color: #333;
+  font-weight: 200;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.title-section h2 {
+  font-size: 52px;
+  line-height: 76px;
+  font-weight: 500;
+  color: #333;
+  position: relative;
+  text-align: center;
+  font-family: "Poppins";
+  position: relative;
+  margin: 0;
+}
+
+.title-section h2::after {
+  content: "";
+  width: 17%;
+  height: 2.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.sup-span {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 60px;
+  font-family: "Poppins";
+  color: #6e6e6e;
+}
+
+.title-button {
+  text-align: center;
+}
+
+.theme-button {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #f63440;
+  color: #fff;
+  line-height: 47px;
+  text-decoration: none;
+  padding: 0 36px;
+  font-family: "Poppins";
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.theme-button:hover {
+  background-color: #333;
+}
+
+@media only screen and (max-width: 1280px) {
+  .flat-row {
+    padding: 35px 0 !important;
+  }
+}
