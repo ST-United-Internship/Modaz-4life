@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>ComingSoon Page</title>
+    <link rel="stylesheet" type="text/css" href="css/comming-soon.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <!-- Bootsrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Horizontal header -->
+    <link rel="stylesheet" href="../../css/header/horizontal-header-component.css" />
+    <!-- Vertical header -->
+    <link rel="stylesheet" href="../../css/header/vertical-header-component.css" />
+
+
+</head>
+
+<body>
+   <!-- Header -->
+    <!-- Horizontal nav -->
+    <div class="header-container-fluid">
+      <section class="my-container header-container">
+        <div class="header-logo">
+          <img
+            alt="logo header"
+            src="http://themesflat.com/html/modaz/images/logo@2x.png"
+          />
+        </div>
+
+        <div class="main-menu">
+          <ul>
+            <li>HOME</li>
+            <li>
+              SHOP
+              <ul class="sub-menu">
+                <li>Shop Layouts</li>
+                <li>Shop Details</li>
+              </ul>
+            </li>
+            <li>
+              PAGE
+              <ul class="sub-menu">
+                <li>Coming soon</li>
+                <li>Shop Details</li>
+              </ul>
+            </li>
+            <li>
+              BLOG
+              <ul class="sub-menu">
+                <li>Blog Gird Full</li>
+                <li>Blog Details</li>
+              </ul>
+            </li>
+            <li>CONTRACT</li>
+          </ul>
+
+          <!-- Space div -->
+          <div class="space-div"></div>
+          <!-- End space -->
+          <div class="extra-menu">
+            <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="cart-badges">
+              <button type="button" class="btn btn-primary position-relative">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                >
+                  3
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End horizontal nav -->
+
+    <!-- Vertical nav -->
+    <section class="my-container vertical-header-container">
+      <div class="menu-bar">
+        <div class="vertical-header-logo">
+          <img
+            alt="logo header"
+            src="http://themesflat.com/html/modaz/images/logo@2x.png"
+          />
+        </div>
+
+        <div class="menu-bar-icon" id="btn-menu-bar">
+          <i id="icon-btn" class="bi bi-list"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Item menu -->
+    <div class="vertical-item-menu" id="vertical-item-menu">
+      <ul class="item-menu">
+        <li>
+          <div class="item-link">
+            HOME
+            <span class="arrow-icon"><i class="bi bi-chevron-down"></i></span>
+          </div>
+        </li>
+
+        <li>
+          <div class="item-link" id="shop-item">
+            SHOP
+            <span class="arrow-icon"
+              ><i id="shop-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="shop-item-sub">
+            <li>
+              <div class="item-link">Shop Layouts</div>
+            </li>
+            <li>
+              <div class="item-link">Shop Details</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link" id="page-item">
+            Page
+            <span class="arrow-icon"
+              ><i id="page-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="page-item-sub">
+            <li>
+              <div class="item-link">Coming soon</div>
+            </li>
+            <li>
+              <div class="item-link">Shop Details</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link" id="blog-item">
+            Blog
+            <span class="arrow-icon"
+              ><i id="blog-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="blog-item-sub">
+            <li>
+              <div class="item-link">Blog Gird Full</div>
+            </li>
+
+            <li>
+              <div class="item-link">Blog Detail</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link">
+            Contract
+            <span class="arrow-icon"
+              ><i id="shop-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- End Vertical nav -->
+
+    <!-- End header -->
+
+    <!-- Comming soon -->
+    <section class="my-container comming-soon-container">
+        <div id="loading-overlay">
+            <div class="loader"></div>
+        </div>
+        <img src="Assets/Images/bg-parallax2.jpg" alt="">
+        <header>New Collection</header>
+        <p>Coming Soon</p>
+        <div class="time-titles">
+            <div class="time days">
+                <span class="number"></span>
+                <span class="title-text">Days</span>
+            </div>
+            <div class="time hours">
+                <span class="number"></span>
+                <span class="title-text">Hours</span>
+            </div>
+            <div class="time minutes">
+                <span class="number">09</span>
+                <span class="title-text">Minutes</span>
+            </div>
+            <div class="time seconds">
+                <span class="number">09</span>
+                <span class="title-text">Seconds</span>
+            </div>
+        </div>
+        <div class="flat-button">
+            <button type="button" class="bg-white">BACK TO HOME</button>
+            <button type="button" class="bg-black">CONTINUE SHOPING</button>
+        </div>
+    </section>
+    </section>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/81aaccc8c8.js"
+      crossorigin="anonymous"
+    ></script>
+  <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./javaScript/ScriptTime.js"></script>
+    <script src="./javaScript/loader.js"></script>
+        <!-- Header js jquery -->
+    <script src="../../js/header/header.js"></script>
+</body>
+
+</html>

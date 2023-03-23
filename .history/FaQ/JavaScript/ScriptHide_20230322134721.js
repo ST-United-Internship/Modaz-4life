@@ -1,0 +1,4 @@
+let textSection = document.querySelector(".toggle-text")
+function showHideText(){
+    textSection.st
+}

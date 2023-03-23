@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.title-page{
+    overflow: hidden;
+    position: relative;
+}
+
+.comming-page .myPage{
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.parallax2{
+    background-image: url("http://themesflat.com/html/modaz/images/parallax/bg-parallax2.jpg");
+}

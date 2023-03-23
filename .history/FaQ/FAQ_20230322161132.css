@@ -1,0 +1,153 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.title-page{
+    position: relative;
+    padding: 76px 0 77px;
+    text-align: center;
+}
+.textImg{
+    width: 100%;
+    background-attachment: fixed;
+}
+.textImg1{
+    background-image: url("http://themesflat.com/html/modaz/images/parallax/bg-parallax1.jpg");
+}
+
+.heading-page{
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    box-sizing: border-box;
+}
+
+.title-page .heading-page .title{
+    margin-bottom: 23px;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #333
+}
+
+.title-page .breadcrumbs ul{
+    padding: 0;
+    list-style: none;
+}
+
+.title-page .breadcrumbs ul li{
+    display: inline-block;
+    position: relative;
+    margin: 0 9px 0 7px;
+    
+}
+
+.title-page .breadcrumbs ul li:before{
+    content: ">";
+    position: absolute;
+    top: 0;
+    right: -12px;
+}
+
+.breadcrumbs ul li:last-child:before {
+    content: "";
+    background-color: transparent;
+}
+
+.title-page .breadcrumbs ul li a{
+    color: #6e6e6e;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+ */
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } */
+
+ body{
+    font: 14px/26px "Poppins",sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    color: #6e6e6e;
+ }
+.boxed{
+    overflow: hidden;
+    position: relative;
+}
+.text-row{
+    clear: both;
+    display: block;
+    position: relative;
+    padding: 87px 0 63px 0;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loaded{
+    clear: both;
+    display: block;
+    height: 49px;
+}
+
+.over-title{
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 30px;
+    color: #252525;
+}
+
+.over-rise .over-toggle{
+    margin-bottom: 15px;
+}
+
+.over-rise .over-toggle .toggle-title{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #111;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+
+.over-rise .over-toggle .toggle-text{
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 14px;
+}
+
+.over-rise .over-toggle .toggle-text p{
+    line-height: 24px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    filter: contrast(1%);
+}
+@media (min-width: 1400px)
+.container{
+    max-width: 940px;
+}
