@@ -1,0 +1,5 @@
+$(function(){
+
+ $("#loading-overla").remove();
+
+});
