@@ -1,11 +1,11 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
-}
+} */
 .my-container{
-    height: 115vh;
+    height: 100vh;
     row-gap: 15px;
     width: 100%;
     display: flex;

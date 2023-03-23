@@ -5,7 +5,7 @@
     
 }
 .my-container{
-    height: 115vh;
+    height: 100vh;
     row-gap: 15px;
     width: 100%;
     display: flex;
@@ -14,7 +14,6 @@
     overflow: hidden;
     align-items: center;
     background-color: rgb(0, 0, 0,.5);
-        background-position: 50% 62px;
 }
 
 .my-container img{
@@ -23,7 +22,7 @@
     width: 100%;
     object-fit: cover;
     z-index: -1;
-    
+    background-position: 50% 62px;
 }
 
 .my-container header{
