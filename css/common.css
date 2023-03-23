@@ -1,10 +1,9 @@
-.container {
+.my-container {
   max-width: 80%;
   margin: auto;
 }
 
 *,
-**,
 *::before,
 *::after {
   box-sizing: border-box;
