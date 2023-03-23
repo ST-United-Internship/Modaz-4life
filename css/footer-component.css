@@ -46,7 +46,7 @@ body > div.footer-copy-right-fluid > div > p > a {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
   }
 
   .footer-container > div {
@@ -59,11 +59,11 @@ body > div.footer-copy-right-fluid > div > p > a {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
   }
 
   .footer-container > div {
-    width: 100% !important;
+    width: 95%;
     padding-left: 20px;
   }
 }
