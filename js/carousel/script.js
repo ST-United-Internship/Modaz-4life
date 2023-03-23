@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $(".slider-trending").owlCarousel({
     margin: 10,
     loop: true,
     center: true,
@@ -17,5 +17,15 @@ $(document).ready(function () {
         items: 3,
       },
     },
+  });
+});
+
+$(document).ready(function () {
+  $(".slider-banner").owlCarousel({
+    loop: true,
+    dots: true,
+    items: 1,
+    autoPlay: true,
+    smartSpeed: 1200,
   });
 });
