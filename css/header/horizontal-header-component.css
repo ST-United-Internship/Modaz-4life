@@ -56,6 +56,16 @@
   text-decoration: none;
 }
 
+body
+  > div.header-container-fluid
+  > section
+  > div.main-menu
+  > ul
+  > li
+  > ul
+  > li:hover {
+  color: #f63440;
+}
 /* Home link */
 .header-container .main-menu > ul > li:nth-child(1) {
   color: #f63440;
@@ -80,10 +90,11 @@
 .header-container .sub-menu > li {
   list-style-type: none;
   padding-top: 10px;
+  color: #6e6e6e;
 }
 .header-container .sub-menu > li > a {
   text-decoration: none;
-  color: #f63440;
+  color: #6e6e6e;
 }
 
 /* Hover */
@@ -94,6 +105,7 @@
 .header-container .main-menu > ul > li:hover > a {
   color: #f63440;
 }
+
 .header-container .main-menu > ul > li:hover > .sub-menu {
   visibility: visible;
   top: 63px;

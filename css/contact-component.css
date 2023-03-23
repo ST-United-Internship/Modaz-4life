@@ -111,6 +111,9 @@ body
   body > section.contact-container-fluid > div > div:nth-child(2) > button {
     height: 40px;
   }
+  body > section.contact-container-fluid > div > div:nth-child(2) > input {
+    height: 40px;
+  }
   .contact-container > div:nth-child(1) {
     width: 95% !important;
     margin: auto;

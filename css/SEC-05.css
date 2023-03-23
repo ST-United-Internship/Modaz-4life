@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 
 .flat-row {
+  margin-top: 50px;
   background-image: url("	https://themesflat.com/html/modaz/images/parallax/bg-parallax3.jpg");
   background-position: 50% 8px;
   padding: 98px 0px 98px;
-  background-attachment: fixed;
+
   overflow: hidden;
 }
 
