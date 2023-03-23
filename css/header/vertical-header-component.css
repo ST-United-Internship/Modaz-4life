@@ -10,6 +10,10 @@
   }
 }
 @media screen and (max-width: 900px) {
+  .vertical-item-menu {
+    display: block;
+  }
+
   body
     > section.my-container.vertical-header-container
     > div
@@ -97,10 +101,13 @@
   body {
     margin: 0;
   }
+  .my-container {
+    width: 100% !important;
+  }
 
   .vertical-header-container {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .vertical-header-container .menu-bar {
