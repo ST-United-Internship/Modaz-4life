@@ -1,7 +1,0 @@
-.overlay {
-    background-image: url(../Assets/Images/bg-parallax2.jpg);
-}
-
-.parallax .overlay{
-    background: rgba(0,0,0,.5);
-}

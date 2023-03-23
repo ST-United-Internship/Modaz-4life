@@ -1,0 +1,173 @@
+.contact-container-fluid {
+  background-color: #f5f5f5;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-container > div {
+  padding-top: 34px;
+  padding-bottom: 34px;
+  display: flex;
+  align-items: center;
+}
+.contact-container > div:nth-child(1) {
+  width: 30%;
+}
+
+.contact-container > div:nth-child(1) > p {
+  vertical-align: middle;
+  margin-bottom: 0 !important;
+  font-size: 22px;
+}
+
+.contact-container > div:nth-child(2) {
+  width: 35%;
+  margin-left: 40px;
+}
+.contact-container > div:nth-child(2) > input {
+  width: 70%;
+  padding: 7px 26px;
+  border: 1px solid #c5c5c5;
+  border-right: none;
+  transition: all 0.3s linear;
+  height: 100%;
+  outline: none;
+}
+
+.contact-container > div:nth-child(2) > input::placeholder {
+  font-size: 15px;
+  color: #c5c5c5;
+}
+
+.contact-container > div:nth-child(2) > button {
+  width: 30%;
+  background-color: #f63440;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 26px;
+  border: 1px solid #f63440;
+  border-left: none;
+  height: 100%;
+}
+
+.contact-container > div:nth-child(2) > input:focus {
+  border: 1px solid #f63440;
+  border-right: none;
+  outline: none;
+}
+
+body > section.contact-container-fluid > div > div.social-list-icon {
+  font-size: 20px;
+  width: 15%;
+}
+
+body > section.contact-container-fluid > div > div.social-list-icon {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+/* hover */
+
+body > section.contact-container-fluid > div > div.social-list-icon > div {
+  padding-left: 20px;
+  height: 100%;
+  cursor: pointer;
+}
+
+body > section.contact-container-fluid > div > div.social-list-icon > div > i {
+  transition: all 0.5s ease;
+}
+body
+  > section.contact-container-fluid
+  > div
+  > div.social-list-icon
+  > div:hover
+  > i {
+  color: #703337;
+}
+
+@media screen and (max-width: 1260px) {
+  .contact-container > div:nth-child(1) {
+    width: 45%;
+  }
+  .contact-container > div:nth-child(2) {
+    width: 45%;
+    margin-left: 40px;
+  }
+  .contact-container > div:nth-child(3) {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  body > section.contact-container-fluid > div > div:nth-child(2) > button {
+    height: 40px;
+  }
+  .contact-container > div:nth-child(1) {
+    width: 95% !important;
+    margin: auto;
+  }
+  .contact-container > div:nth-child(2) {
+    width: 95%;
+    margin: auto;
+  }
+  /* Socical list */
+  body > section.contact-container-fluid > div > div.social-list-icon {
+    width: 95%;
+  }
+
+  body > section.contact-container-fluid > div > div.social-list-icon {
+    justify-content: start;
+  }
+
+  body > section.contact-container-fluid > div > div.social-list-icon > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+  }
+  body
+    > section.contact-container-fluid
+    > div
+    > div.social-list-icon
+    > div:nth-child(1) {
+    padding-right: 20px;
+  }
+
+  body
+    > section.contact-container-fluid
+    > div
+    > div.social-list-icon
+    > div:nth-child(2) {
+    padding-right: 20px;
+  }
+  body
+    > section.contact-container-fluid
+    > div
+    > div.social-list-icon
+    > div:nth-child(3) {
+    padding-right: 20px;
+  }
+  body
+    > section.contact-container-fluid
+    > div
+    > div.social-list-icon
+    > div:nth-child(4) {
+    padding-right: 20px;
+  }
+  body
+    > section.contact-container-fluid
+    > div
+    > div.social-list-icon
+    > div:nth-child(5) {
+    padding-right: 20px;
+  }
+}

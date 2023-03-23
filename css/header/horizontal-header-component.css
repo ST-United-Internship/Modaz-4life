@@ -2,9 +2,11 @@
 
 .header-container-fluid {
   box-shadow: 0 5px 14.25px 0.75px rgba(36, 11, 12, 0.05);
-  /* overflow: hidden; */
-  /* position: fixed;
-  top: 0; */
+  position: sticky;
+  top: 0;
+  z-index: 99999999;
+  background-color: white;
+  width: 100%;
 }
 .header-container {
   display: flex;
@@ -46,6 +48,13 @@
   cursor: pointer;
   position: relative;
 }
+.header-container .main-menu > ul > li > a {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #6e6e6e;
+  text-decoration: none;
+}
 
 /* Home link */
 .header-container .main-menu > ul > li:nth-child(1) {
@@ -72,9 +81,17 @@
   list-style-type: none;
   padding-top: 10px;
 }
+.header-container .sub-menu > li > a {
+  text-decoration: none;
+  color: #f63440;
+}
 
 /* Hover */
 .header-container .main-menu > ul > li:hover {
+  color: #f63440;
+}
+
+.header-container .main-menu > ul > li:hover > a {
   color: #f63440;
 }
 .header-container .main-menu > ul > li:hover > .sub-menu {
@@ -120,16 +137,18 @@
   background-color: #eee;
   color: #f63440;
 }
-/* body > div.header-container-fluid > section > div.main-menu > div.extra-menu > div.cart-badges > button  */
+.header-container .extra-menu .cart-badges:hover {
+  background: none;
+}
 
 .header-container .extra-menu .cart-badges button {
   background-color: #eee !important;
 }
-.header-container .extra-menu .cart-badges button:hover {
+.header-container .extra-menu .cart-badges .custom-class:hover {
   background-color: #eee !important;
 }
 
-.header-container .extra-menu .cart-badges button:hover > i {
+.header-container .extra-menu .cart-badges .custom-class:hover > i {
   color: #f63440 !important;
 }
 

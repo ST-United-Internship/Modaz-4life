@@ -1,5 +1,0 @@
-$(function(){
-
- $("#loading-overlay").remove();
-
-});
