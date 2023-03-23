@@ -120,6 +120,30 @@
   background-color: #eee;
   color: #f63440;
 }
+/* body > div.header-container-fluid > section > div.main-menu > div.extra-menu > div.cart-badges > button  */
+
+.header-container .extra-menu .cart-badges button {
+  background-color: #eee !important;
+}
+.header-container .extra-menu .cart-badges button:hover {
+  background-color: #eee !important;
+}
+
+.header-container .extra-menu .cart-badges button:hover > i {
+  color: #f63440 !important;
+}
+
+/* extra menu */
+.cart-badges > button {
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: unset;
+}
+.cart-badges > button > i {
+  color: #212529;
+}
 
 @media screen and (max-width: 1450px) {
   .header-container > .header-logo {
