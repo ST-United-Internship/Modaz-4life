@@ -1,7 +1,6 @@
 $(document).ready(function () {
   // hide in default
-  $("#vertical-item-menu").slideUp();
-
+  $("#vertical-item-menu").hide();
   // show menu
   $("#btn-menu-bar").click(function (e) {
     $("#vertical-item-menu").slideToggle();

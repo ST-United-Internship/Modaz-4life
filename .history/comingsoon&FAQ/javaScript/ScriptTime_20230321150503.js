@@ -1,1 +1,0 @@
-const seconds = document.querySelector("")
