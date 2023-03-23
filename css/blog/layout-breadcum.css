@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+
+
+.layout-breadcum-fluid {
+  background-image: url("https://themesflat.com/html/modaz/images/parallax/bg-parallax1.jpg");
+  background-position: 50% 0px;
+  padding: 70px 0px 70px;
+  /* background-attachment: fixed; */
+}
+
+.layout-breadcum-fluid > .container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-breadcum-heading .title-blog {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  font-family: "Poppins";
+  text-align: center;
+  margin: 0;
+
+  color: #333333;
+}
+
+.container-blog {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-left: 26px;
+}
+
+.breadcrumb a {
+  display: inline;
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0px 2px 0px 2px;
+}
+
+.breadcrumb a:hover {
+  color: red;
+}
+
+.container-blog .wrapBlog {
+  width: 1200px;
+  padding: 70px 26px;
+}
+
+.grid-blog {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  /* margin-left: 70px; */
+  /* margin-right: 70px; */
+  /* padding: 20px 0px 20px; */
+}
+.post-clearfix {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 30%;
+
+  /* padding: ; */
+}
+
+.title-post a {
+  color: #333333;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.title-post h2 {
+  margin-bottom: -2 5; px;
+}
+
+.entry-post p {
+  color: #6e6e6e;
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  margin-bottom: 3px;
+margin-top: -20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.link-more {
+  position: relative;
+  display: inline-block;
+  color: #f63440;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 46px;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.link-more:after {
+  content: ">>";
+  color: #f63440;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.link-more:hover:after {
+  right: -30px;
+}
+
+.flat-pagination {
+  padding-top: 40px;
+}
+
+/* Pagination
+---------------------------------------------------------------*/
+
+.clearfix {
+  width: 100%;
+  align-items: center;
+}
+.flat-pagination {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.flat-pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.blog-pagination.text-center .flat-pagination li {
+  margin: 0px 3px;
+}
+
+.flat-pagination li a {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  display: table-caption;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: transparent;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+.flat-pagination li.active a,
+.flat-pagination li a:hover {
+  background: #f63440;
+  border: 1px solid #f63440;
+  color: #ffffff;
+}
+
+/*Reponsive*/
+@media only screen and (mim-width: 1280px) {
+  .layout-breadcum-fluid .title-breadcrumb-fluid {
+    max-width: 25%;
+  }
+  .grid-blog {
+    width: 1200px;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .layout-breadcum-fluid {
+    align-content: center;
+  }
+  .layout-breadcum-fluid .title-breadcrumb-fluid {
+    max-width: 90%;
+  }
+  .post-clearfix {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .post-clearfix {
+    width: 45%;
+  }
+  .layout-breadcum-fluid .title-breadcrumb-fluid {
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .post-clearfix {
+    width: 95%;
+  }
+  .layout-breadcum-fluid .title-breadcrumb-fluid {
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .post-clearfix {
+    width: 95%;
+  }
+  .layout-breadcum-fluid .title-breadcrumb-fluid {
+    max-width: 25%;
+  }
+}
