@@ -18,9 +18,19 @@
         }
       });
     };
-
+    var flatEffectDir = function(){
+      if($().hoverdir){
+          $('.data-effect').each(function(){
+              $(this).find('.data-effect-item').hoverdir({
+                  hoverDelay: 15,
+                  hoverElem: '.overlay-effect'
+              })
+          })
+      };
+  };
 	$(function() { 
       flatAccordion();
+      flatEffectDir()
    	});
 })(jQuery);
 
