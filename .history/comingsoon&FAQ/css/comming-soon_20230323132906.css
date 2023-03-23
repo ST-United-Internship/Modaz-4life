@@ -26,20 +26,20 @@
     
 }
 
-.star-container header{
+.my-container header{
     line-height: 58px;
     color: #fff;
     font-size: 24px;
 }
 
-.star-container p{
+.my-container p{
     color: #fff;
     font-size: 78px;
     line-height: 90px;
     font-weight: 500;
 }
 
-.star-container .time-titles{
+.my-container .time-titles{
     display: flex;
     column-gap: 30px;
 }
@@ -147,14 +147,14 @@
         padding: 0 0px;
         margin: 0 0px;
     }
-    .star-container p{
+    .my-container p{
         font-size: 40px;
     }
 }
 
 
 @media only screen and (max-width: 665px) {
-    .star-container .time-titles{
+    .my-container .time-titles{
         display: inline-block;
     }
 }
