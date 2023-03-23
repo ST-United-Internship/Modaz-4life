@@ -18,20 +18,25 @@
 
 /* Copy right */
 .footer-copyright {
+  padding: 20px;
+
   text-decoration: none;
   color: black;
 }
-
+.footer-copy-right-fluid {
+  border-top: 1px solid #6e6e6e;
+}
 .footer-copyright-container {
+  padding: 20px;
   text-align: center;
   font-family: "Poppins";
 }
 
-body > div.my-container.footer-copyright-container > p {
+body > div.footer-copy-right-fluid > div > p {
   color: #6e6e6e;
   font-size: 14px;
 }
-body > div.my-container.footer-copyright-container > p > a {
+body > div.footer-copy-right-fluid > div > p > a {
   color: #333;
   text-decoration: none;
   font-weight: 500;
