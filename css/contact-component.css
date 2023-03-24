@@ -176,9 +176,6 @@ body
 }
 
 @media screen and (max-width: 400px) {
-  body > section.contact-container-fluid > div > div:nth-child(2) {
-    background-color: blueviolet;
-  }
   body > section.contact-container-fluid > div > div:nth-child(2) > input {
     width: 50%;
   }
