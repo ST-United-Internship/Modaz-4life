@@ -1,8 +1,8 @@
 $(document).ready(function () {
   $(".slider-trending").owlCarousel({
     margin: 10,
-    loop: true,
-    center: true,
+    // loop: true,
+    // center: true,
     items: 3,
     autoWidth: true,
     autoHeight: true,
@@ -20,7 +20,6 @@ $(document).ready(function () {
     },
   });
 });
-
 
 $(document).ready(function () {
   $(".slider-banner").owlCarousel({
