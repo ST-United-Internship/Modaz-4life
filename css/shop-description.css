@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: "Poppins", sans-serif;
-}
+} */
 
 .content-tab {
   max-width: 100%;
@@ -253,7 +253,7 @@ body {
 
 /* Mobile */
 @media (max-width: 500px) {
-  .container {
+  .my-container {
     max-width: 100%;
   }
 
@@ -688,4 +688,10 @@ textarea {
   height: 150px;
   padding: 15px;
   overflow: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .flat-row {
+    margin-top: 40px;
+  }
 }
