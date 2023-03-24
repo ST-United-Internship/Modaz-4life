@@ -64,7 +64,7 @@ document.body.innerHTML += `<div class="switcher-container">
     </div>
   </div>`;
 
-document.addEventListener("DOMContentLoaded", () => loadEvent());
+window.onload = () => loadEvent();
 
 var loadEvent = function () {
   const switcherContainer = document.querySelector(".switcher-container");
