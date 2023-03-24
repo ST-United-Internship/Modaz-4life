@@ -1,311 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="css/common.css" />
-		<link rel="stylesheet" href="css/contact.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css"
-			integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-			integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-	</head>
-	<body>
-		<section class="flat-row flat-icon">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="title-section">
-							<h2 class="title">Get In Touch</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="iconbox text-center">
-							<div class="icon">
-								<i class="fa fa-map-marker"></i>
-							</div>
-							<div class="box-content">
-								<p>203, Envato Labs, Behind Alis Steet</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="iconbox text-center">
-							<div class="icon">
-								<i class="fa fa-phone"></i>
-							</div>
-							<div class="box-content">
-								<p>+12 345 678 910 / +23 122 345 678</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="iconbox text-center">
-							<div class="icon">
-								<i class="fa-solid fa-envelope"></i>
-							</div>
-							<div class="box-content">
-								<p>Infor.deercreative@gmail.com</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="divider"></div>
-				<div class="row">
-					<div class="col-md-12 position-relative">
-						<div class="map"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="flat-row flat-contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="title-section">
-							<h2 class="title">Send Us Email</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="wrap-contact">
-						<form
-							novalidate=""
-							class="contact-form"
-							id="contactform"
-							method="post"
-							action="#"
-						>
-							<div class="form-text-wrap">
-								<div class="contact-name">
-									<label></label>
-									<input
-										type="text"
-										placeholder="Name"
-										aria-required="true"
-										size="30"
-										value=""
-										name="author"
-										id="author"
-									/>
-								</div>
-								<div class="contact-email">
-									<label></label>
-									<input
-										type="email"
-										size="30"
-										placeholder="Email"
-										value=""
-										name="email"
-										id="email"
-									/>
-								</div>
-								<div class="contact-subject">
-									<label></label>
-									<input
-										type="text"
-										placeholder="Subject"
-										aria-required="true"
-										size="30"
-										value=""
-										name="subject"
-										id="subject"
-									/>
-								</div>
-							</div>
-							<div class="contact-message">
-								<label></label>
-								<textarea
-									class=""
-									tabindex="4"
-									placeholder="Message"
-									name="message"
-									required
-								></textarea>
-							</div>
-							<div class="form-submit">
-								<button class="contact-submit">SEND</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <!-- Bootsrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
-		<section class="flat-row mail">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="text">
-							<h3>Sign up for Send Newslette</h3>
-						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="subscribe">
-							<form
-								action="#"
-								method="post"
-								accept-charset="utf-8"
-								id="subscribe-form"
-							>
-								<div class="subscribe-content">
-									<div class="input">
-										<input
-											type="email"
-											name="subscribe-email"
-											placeholder="Your Email"
-										/>
-									</div>
-									<div class="button">
-										<button type="button">SUBCRIBE</button>
-									</div>
-								</div>
-							</form>
-							<ul class="social">
-								<li>
-									<a href="#"><i class="fa fa-facebook"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-google"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-behance"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css"
+      integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-		<footer class="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 col-md-3">
-						<div class="widget widget-link">
-							<ul>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Online Store</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">Contact Us</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="widget widget-link">
-							<ul>
-								<li><a href="#">Login/ Register</a></li>
-								<li><a href="#">Your Cart</a></li>
-								<li><a href="#">Wishlist items</a></li>
-								<li><a href="#">Your checkout</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="widget widget-link">
-							<ul>
-								<li><a href="faqs.html">FAQs</a></li>
-								<li><a href="#">Term of service</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Returns</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="widget widget-brand">
-							<div class="logo logo-footer">
-								<a href="index.html"
-									><img
-										src="http://themesflat.com/html/modaz/images/logo@2x.png"
-										alt="image"
-										width="107"
-										height="24"
-								/></a>
-							</div>
-							<ul class="flat-contact">
-								<li class="address">112 Kingdom, NA 12, New York</li>
-								<li class="phone">+12 345 678 910</li>
-								<li class="email">infor.deercreative@gmail.com</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+    <!-- Horizontal header -->
+    <link rel="stylesheet" href="css/header/horizontal-header-component.css" />
+    <!-- Vertical header -->
+    <link rel="stylesheet" href="css/header/vertical-header-component.css" />
+    <!-- footer -->
+    <link rel="stylesheet" href="css/footer-component.css" />
 
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<p class="copyright text-center">
-							Copyright @2018
-							<a href="#">Modaz</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
+    <!-- Contract phuoc component -->
+    <link rel="stylesheet" href="css/contact-component.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- Horizontal nav -->
+    <div class="header-container-fluid">
+      <section class="my-container header-container">
+        <div class="header-logo">
+          <img
+            alt="logo header"
+            src="http://themesflat.com/html/modaz/images/logo@2x.png"
+          />
+        </div>
 
-		<!-- Javascript -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-			integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-			crossorigin="anonymous"
-		></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEmGuIceexKma4Q6yyRD8M-KS5vbPtUVM"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
-		<script>
-			$(".map")
-				.gmap3({
-					center: [48.8620722, 2.352047],
-					zoom: 4,
-				})
-				.marker([
-					{ position: [48.8620722, 2.352047] },
-					{ address: "86000 Poitiers, France" },
-					{
-						address: "66000 Perpignan, France",
-						icon: "https://maps.google.com/mapfiles/marker_grey.png",
-					},
-				])
-				.on("click", function (marker) {
-					marker.setIcon("https://maps.google.com/mapfiles/marker_green.png");
-				});
-		</script>
-	</body>
+        <div class="main-menu">
+          <ul>
+            <li>HOME</li>
+            <li>
+              <a href="shop-description.html">SHOP</a>
+              <ul class="sub-menu">
+                <li>Shop Layouts</li>
+                <li>Shop Details</li>
+              </ul>
+            </li>
+            <li>
+              PAGE
+              <ul class="sub-menu">
+                <li>
+                  <a href="pages/comingsoon&FAQ/coming-soon.html"
+                    >Coming soon</a
+                  >
+                </li>
+                <li><a href="pages/FaQ/FAQ.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li>
+              BLOG
+              <ul class="sub-menu">
+                <li>
+                  <a href="components/blog-layout-breadcum.html"
+                    >Blog Gird Full</a
+                  >
+                </li>
+                <li>
+                  <a href="components/listComment.html">Blog Details</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="pages/Contact/contact.html">CONTRACT</a></li>
+          </ul>
+
+          <!-- Space div -->
+          <div class="space-div"></div>
+          <!-- End space -->
+          <div class="extra-menu">
+            <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="cart-badges">
+              <button
+                type="button"
+                class="btn btn-primary position-relative custom-class"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                >
+                  3
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End horizontal nav -->
+
+    <!-- Vertical nav -->
+    <section class="my-container vertical-header-container">
+      <div class="menu-bar">
+        <div class="vertical-header-logo">
+          <img
+            alt="logo header"
+            src="http://themesflat.com/html/modaz/images/logo@2x.png"
+          />
+        </div>
+
+        <div class="menu-bar-icon" id="btn-menu-bar">
+          <i id="icon-btn" class="bi bi-list"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Item menu -->
+    <div class="vertical-item-menu" id="vertical-item-menu">
+      <ul class="item-menu">
+        <li>
+          <div class="item-link">
+            HOME
+            <span class="arrow-icon"><i class="bi bi-chevron-down"></i></span>
+          </div>
+        </li>
+
+        <li>
+          <div class="item-link" id="shop-item">
+            SHOP
+            <span class="arrow-icon"
+              ><i id="shop-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="shop-item-sub">
+            <li>
+              <div class="item-link">Shop Layouts</div>
+            </li>
+            <li>
+              <div class="item-link">Shop Details</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link" id="page-item">
+            Page
+            <span class="arrow-icon"
+              ><i id="page-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="page-item-sub">
+            <li>
+              <div class="item-link">Coming soon</div>
+            </li>
+            <li>
+              <div class="item-link">Shop Details</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link" id="blog-item">
+            Blog
+            <span class="arrow-icon"
+              ><i id="blog-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+
+          <ul class="sub-menu" id="blog-item-sub">
+            <li>
+              <div class="item-link">Blog Gird Full</div>
+            </li>
+
+            <li>
+              <div class="item-link">Blog Detail</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="item-link">
+            Contract
+            <span class="arrow-icon"
+              ><i id="shop-item-icon-down" class="bi bi-chevron-down"></i
+            ></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- End Vertical nav -->
+
+    <!-- End header -->
+    <section class="flat-row flat-icon">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-section">
+              <h2 class="title">Get In Touch</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="iconbox text-center">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="box-content">
+                <p>203, Envato Labs, Behind Alis Steet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="iconbox text-center">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="box-content">
+                <p>+12 345 678 910 / +23 122 345 678</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="iconbox text-center">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="box-content">
+                <p>Infor.deercreative@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+          <div class="col-md-12 position-relative">
+            <div class="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flat-row flat-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-section">
+              <h2 class="title">Send Us Email</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="wrap-contact">
+            <form
+              novalidate=""
+              class="contact-form"
+              id="contactform"
+              method="post"
+              action="#"
+            >
+              <div class="form-text-wrap">
+                <div class="contact-name">
+                  <label></label>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    aria-required="true"
+                    size="30"
+                    value=""
+                    name="author"
+                    id="author"
+                  />
+                </div>
+                <div class="contact-email">
+                  <label></label>
+                  <input
+                    type="email"
+                    size="30"
+                    placeholder="Email"
+                    value=""
+                    name="email"
+                    id="email"
+                  />
+                </div>
+                <div class="contact-subject">
+                  <label></label>
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    aria-required="true"
+                    size="30"
+                    value=""
+                    name="subject"
+                    id="subject"
+                  />
+                </div>
+              </div>
+              <div class="contact-message">
+                <label></label>
+                <textarea
+                  class=""
+                  tabindex="4"
+                  placeholder="Message"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-submit">
+                <button class="contact-submit">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-container-fluid">
+      <div class="my-container contact-container">
+        <div>
+          <p>Sign up for Send Newsletter</p>
+        </div>
+
+        <div>
+          <input placeholder="Your email" />
+          <button>SUBCRIBE</button>
+        </div>
+
+        <div class="social-list-icon">
+          <div><i class="bi bi-facebook"></i></div>
+          <div><i class="bi bi-twitter"></i></div>
+          <div><i class="bi bi-google"></i></div>
+          <div><i class="bi bi-google"></i></div>
+          <div><i class="bi bi-linkedin"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-container footer-container">
+      <div>
+        <p>About Us</p>
+        <p>Online Store</p>
+        <p>Blog</p>
+        <p>Contract Us</p>
+      </div>
+
+      <div>
+        <p>Login/ Register</p>
+        <p>Your Cart</p>
+        <p>Wishlist items</p>
+        <p>Your checkout</p>
+      </div>
+
+      <div>
+        <p>FAQs</p>
+        <p>Term of service</p>
+        <p>Privacy Policy</p>
+        <p>Returns</p>
+      </div>
+
+      <div>
+        <img
+          alt="img"
+          src="https://themesflat.com/html/modaz/images/logo@2x.png"
+        />
+
+        <p>112 Kingdom, NA 12, New York</p>
+
+        <p>+12 345 678 910</p>
+      </div>
+    </section>
+
+    <div class="footer-copy-right-fluid">
+      <div class="my-container footer-copyright-container">
+        <p>
+          Copyright @2018
+          <a class="" href="#">Modaz</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEmGuIceexKma4Q6yyRD8M-KS5vbPtUVM"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
+    <script>
+      $(".map")
+        .gmap3({
+          center: [48.8620722, 2.352047],
+          zoom: 4,
+        })
+        .marker([
+          { position: [48.8620722, 2.352047] },
+          { address: "86000 Poitiers, France" },
+          {
+            address: "66000 Perpignan, France",
+            icon: "https://maps.google.com/mapfiles/marker_grey.png",
+          },
+        ])
+        .on("click", function (marker) {
+          marker.setIcon("https://maps.google.com/mapfiles/marker_green.png");
+        });
+    </script>
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/81aaccc8c8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Loading -->
+    <script src="pages/FaQ/javascript/loader.js"></script>
+    <!-- Header js jquery -->
+    <script src="js/header/header.js"></script>
+  </body>
 </html>
