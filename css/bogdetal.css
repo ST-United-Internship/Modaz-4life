@@ -382,11 +382,11 @@ a {
   }
 }
 .hieu {
-  padding-bottom: 110%;
+  padding-bottom: 30px;
 }
 @media only screen and (max-width: 768px) {
   .hieu {
-    padding-bottom: 100%;
+    padding-bottom: 30px;
   }
 }
 .hieu {
