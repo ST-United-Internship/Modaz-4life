@@ -8,7 +8,7 @@
   /* background-attachment: fixed; */
 }
 
-.layout-breadcum-fluid > .container {
+.layout-breadcum-fluid > .nhi-container {
   display: flex;
   justify-content: center;
 }
