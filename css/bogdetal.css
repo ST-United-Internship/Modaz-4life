@@ -2,6 +2,16 @@
 #face {
   color: #6e6e6e;
 }
+.row > * {
+  padding: 0 !important;
+}
+.entry-post {
+  padding-top: 30px;
+  line-height: 1.5 !important;
+}
+.entry-post p {
+  line-height: 1.5 !important;
+}
 #twitter {
   color: #6e6e6e;
 }

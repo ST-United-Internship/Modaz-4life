@@ -77,6 +77,11 @@
 
     <!-- Best sale style -->
     <link rel="stylesheet" href="css/Home-best-sale.css" />
+
+    <!-- Button scroll to top style -->
+    <link rel="stylesheet" href="css/btn-scroll-top.css" />
+    <!-- switcher -->
+    <link rel="stylesheet" href="css/switcher.css" />
   </head>
   <body>
     <!-- Loading -->
@@ -265,9 +270,11 @@
           <div class="content1">
             <div class="desc">Summer Fashion</div>
             <div class="title">SALE</div>
-            <div class="desc-acc">UP TO 30% OFF</div>
+            <div class="desc-acc">
+              UP TO <span style="color: var(--switcher)">30%</span> OFF
+            </div>
             <div class="btn-slider">
-              <button>BY NOW</button>
+              <button style="background-color: var(--switcher)">BY NOW</button>
             </div>
           </div>
         </div>
@@ -757,6 +764,10 @@
       </div>
     </div>
 
+    <!-- Button scroll to top -->
+    <div class="btn-scroll-top fa fa-chevron-up"></div>
+    <!-- end Button scroll to top -->
+
     <!-- Jquery -->
     <script
       src="https://code.jquery.com/jquery-3.6.4.min.js"
@@ -785,5 +796,10 @@
 
     <!-- Best Sale -->
     <script src="js/best-sale-filter.js"></script>
+
+    <!-- Scroll to top -->
+    <script src="js/scrollToTop.js"></script>
+    <!-- Switercher -->
+    <script src="js/switcher.js"></script>
   </body>
 </html>

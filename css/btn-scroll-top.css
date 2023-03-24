@@ -1,0 +1,37 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+:root {
+  --switcher: #f63440;
+}
+
+.btn-scroll-top {
+  position: fixed !important;
+  right: -45px;
+  bottom: 15px;
+  width: 50px;
+  cursor: pointer;
+  background-color: var(--switcher);
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px !important;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out;
+  -ms-filter: "alpha(opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  z-index: 99;
+}
+.btn-scroll-top:hover {
+  background-color: #333;
+}
+
+.btn-scroll-top.show {
+  right: 15px;
+  -ms-filter: "alpha(opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  visibility: visible;
+}

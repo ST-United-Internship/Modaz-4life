@@ -6,15 +6,11 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
 
 .content-tab {
   max-width: 100%;
 }
 
-/* Row */
 .flat-row {
   clear: both;
   display: block;
@@ -23,7 +19,6 @@ body {
   overflow: hidden;
 }
 
-/* Flat tabs */
 .grid-row {
   display: flex;
   padding: 40px 50px;
@@ -47,7 +42,6 @@ body {
 }
 
 .addition-infor td {
-  /* padding    : 0 85px; */
   color: #6e6e6e;
   font-size: 14px;
   font-weight: 400;
@@ -58,8 +52,6 @@ body {
   padding-left: 36px;
 }
 
-/* Review
----------------------------------------------------------------*/
 .review-list .thumb {
   width: 80px;
   height: 80px;
@@ -117,7 +109,6 @@ body {
   visibility: hidden;
 }
 
-/* tab & navs */
 .tab-container {
   margin: 5% 10%;
   background-color: #c1e3d9;
@@ -209,7 +200,6 @@ body {
   height: auto;
 }
 
-/* Tablet */
 @media (min-width: 600px) and (max-width: 1023px) {
   .container {
     max-width: 100%;
@@ -251,9 +241,8 @@ body {
   }
 }
 
-/* Mobile */
 @media (max-width: 500px) {
-  .container {
+  .my-container {
     max-width: 100%;
   }
 
@@ -688,4 +677,10 @@ textarea {
   height: 150px;
   padding: 15px;
   overflow: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .flat-tabs .wraper {
+    margin-top: 70px;
+  }
 }
