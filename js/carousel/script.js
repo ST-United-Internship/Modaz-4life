@@ -6,6 +6,7 @@ $(document).ready(function () {
     items: 3,
     autoWidth: true,
     autoHeight: true,
+    dots: false,
     responsive: {
       0: {
         items: 1,
