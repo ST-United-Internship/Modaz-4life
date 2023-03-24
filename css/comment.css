@@ -509,3 +509,20 @@ input[type="radio"] {
   float: right;
   margin-top: 20px;
 }
+.main-single {
+  display: block;
+
+  width: 60%;
+}
+@media only screen and (max-width: 1420px) {
+  .main-single {
+    width: 60%;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-single {
+    width: 100%;
+  }
+}
