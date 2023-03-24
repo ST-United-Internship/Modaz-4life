@@ -31,7 +31,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="css/home-banner-slider.css">
+    <link rel="stylesheet" href="css/home-banner-slider.css" />
 
     <!-- Common css for media query -->
     <link rel="stylesheet" href="css/common.css" />
@@ -50,7 +50,6 @@
     <!-- Trending component css -->
     <link rel="stylesheet" href="css/trending-component.css" />
 
-
     <!-- LISt product css and library -->
     <link
       rel="stylesheet"
@@ -59,7 +58,6 @@
     />
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- end list product -->
-
 
     <!-- faq css -->
     <link rel="stylesheet" href="pages/FaQ/FAQ.css" />
@@ -76,6 +74,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
+
+    <!-- Best sale style -->
+    <link rel="stylesheet" href="css/Home-best-sale.css" />
   </head>
   <body>
     <!-- Loading -->
@@ -254,7 +255,7 @@
 
     <!-- End header -->
 
-    <!-- Banner --> 
+    <!-- Banner -->
 
     <div class="slider">
       <div class="slider-banner owl-carousel">
@@ -450,6 +451,103 @@
     </div>
     <!-- end new trending -->
 
+    <!-- Best sale product -->
+
+    <div class="test flat-list-filter">
+      <h2 class="title">Best Sale</h2>
+      <ul class="best-sale-filter">
+        <li class="selected" data-filter="*">All Product</li>
+        <li data-filter="kid">For Kid</li>
+        <li data-filter="man">For Man</li>
+        <li data-filter="woman">For Woman</li>
+        <li data-filter="accessories">Accessories</li>
+      </ul>
+      <ul
+        class="list-product best-sale"
+        data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'
+      >
+        <li class="product-item kid">
+          <span class="new sale">Sale</span>
+          <a class="heart"><i class="fa-regular fa-heart"></i></a>
+          <a class="product-item-img">
+            <img
+              src="https://www.themesflat.com/html/modaz/images/shop/sh-4/13.jpg"
+            />
+          </a>
+          <div class="product-item-info">
+            <h4>Cotton White Underwear Block Out Edition</h4>
+            <del class="product-discount">$180</del>
+            <ins class="product-price">$100</ins>
+            <ul class="product-item-style hidden">
+              <li style="--item-style: #ee1313"></li>
+              <li style="--item-style: #7cc576"></li>
+              <li style="--item-style: #000"></li>
+            </ul>
+          </div>
+          <div class="add-to-cart-item">Add to Cart</div>
+        </li>
+        <li class="product-item man">
+          <span class="new">New</span>
+          <a class="heart"><i class="fa-regular fa-heart"></i></a>
+          <a class="product-item-img">
+            <img
+              src="https://www.themesflat.com/html/modaz/images/shop/sh-4/13.jpg"
+            />
+          </a>
+          <div class="product-item-info">
+            <h4>Cotton White Underwear Block Out Edition</h4>
+            <span class="product-price">$100</span>
+            <ul class="product-item-style">
+              <li style="--item-style: #ee1313"></li>
+              <li style="--item-style: #7cc576"></li>
+              <li style="--item-style: #000"></li>
+            </ul>
+          </div>
+          <div class="add-to-cart-item">Add to Cart</div>
+        </li>
+        <li class="product-item woman">
+          <span class="new">New</span>
+          <a class="heart"><i class="fa-regular fa-heart"></i></a>
+          <a class="product-item-img">
+            <img
+              src="https://www.themesflat.com/html/modaz/images/shop/sh-4/13.jpg"
+            />
+          </a>
+          <div class="product-item-info">
+            <h4>Cotton White Underwear Block Out Edition</h4>
+            <span class="product-price">$100</span>
+            <ul class="product-item-style">
+              <li style="--item-style: #ee1313"></li>
+              <li style="--item-style: #7cc576"></li>
+              <li style="--item-style: #000"></li>
+            </ul>
+          </div>
+          <div class="add-to-cart-item">Add to Cart</div>
+        </li>
+        <li class="product-item accessories">
+          <span class="new">New</span>
+          <a class="heart"><i class="fa-regular fa-heart"></i></a>
+          <a class="product-item-img">
+            <img
+              src="https://www.themesflat.com/html/modaz/images/shop/sh-4/13.jpg"
+            />
+          </a>
+          <div class="product-item-info">
+            <h4>Cotton White Underwear Block Out Edition</h4>
+            <span class="product-price">$100</span>
+            <ul class="product-item-style">
+              <li style="--item-style: #ee1313"></li>
+              <li style="--item-style: #7cc576"></li>
+              <li style="--item-style: #000"></li>
+            </ul>
+          </div>
+          <div class="add-to-cart-item">Add to Cart</div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- end Best sale product -->
+
     <!-- Service component -->
     <section class="service-container-fluid">
       <div class="my-container service-container">
@@ -490,7 +588,10 @@
     <section class="my-container trending-container">
       <h1 class="trending-title">New Latest</h1>
 
-      <div class="slider-trending owl-carousel" id="trending-carousel-container">
+      <div
+        class="slider-trending owl-carousel"
+        id="trending-carousel-container"
+      >
         <div class="dh-container">
           <img
             src="https://themesflat.com/html/modaz/images/blog/new-lastest-1-370x280.jpg"
@@ -679,5 +780,8 @@
     <script src="pages/FaQ/javascript/loader.js"></script>
     <!-- Header js jquery -->
     <script src="js/header/header.js"></script>
+
+    <!-- Best Sale -->
+    <script src="js/best-sale-filter.js"></script>
   </body>
 </html>
