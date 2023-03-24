@@ -1,0 +1,41 @@
+.best-sale-filter {
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 54px;
+  padding: 0;
+}
+
+.best-sale-filter > li {
+  list-style: none;
+  background-position: 0px 0px;
+  display: inline-block;
+  cursor: pointer;
+  border-left: 1px solid rgba(110, 110, 110, 0.5);
+  border-top: 1px solid rgba(110, 110, 110, 0.5);
+  border-bottom: 1px solid rgba(110, 110, 110, 0.5);
+  border-right: 1px solid rgba(110, 110, 110, 0.5);
+  line-height: 41px;
+  width: 130px;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  color: #6e6e6e;
+  margin-left: -5px;
+}
+
+.best-sale-filter > li.selected {
+  background-color: var(--switcher);
+  color: white;
+  border-color: var(--switcher);
+}
+
+@media only screen and (max-width: 767px) {
+  .best-sale-filter li {
+    width: 100%;
+    border-left: 1px solid rgba(110, 110, 110, 0.5);
+    display: block;
+    float: none;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
