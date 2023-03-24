@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 
-
 .layout-breadcum-fluid {
   background-image: url("https://themesflat.com/html/modaz/images/parallax/bg-parallax1.jpg");
   background-position: 50% 0px;
   padding: 70px 0px 70px;
-  /* background-attachment: fixed; */
 }
 
-.layout-breadcum-fluid > .container {
+.layout-breadcum-fluid > .my-container {
   display: flex;
   justify-content: center;
 }
@@ -55,7 +53,7 @@
 }
 
 .container-blog .wrapBlog {
-  width: 1200px;
+  width: 100%;
   padding: 70px 0px;
 }
 
@@ -66,17 +64,12 @@
   justify-content: space-around;
   width: 100%;
   margin: auto;
-  /* margin-left: 70px; */
-  /* margin-right: 70px; */
-  /* padding: 20px 0px 20px; */
 }
 .post-clearfix {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   width: 30%;
-
-  /* padding: ; */
 }
 
 .title-post a {
@@ -92,7 +85,7 @@
 }
 
 .title-post h2 {
-  margin-bottom: -2 5; px;
+  margin-bottom: -2 5;
 }
 
 .entry-post p {
@@ -102,7 +95,7 @@
   line-height: 27px;
   font-weight: 300;
   margin-bottom: 3px;
-margin-top: -20px;
+  margin-top: -20px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -188,7 +181,7 @@ margin-top: -20px;
     max-width: 25%;
   }
   .grid-blog {
-    width: 1200px;
+    width: 100%;
     max-width: 100%;
   }
 }

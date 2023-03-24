@@ -2,6 +2,16 @@
 #face {
   color: #6e6e6e;
 }
+.row > * {
+  padding: 0 !important;
+}
+.entry-post {
+  padding-top: 30px;
+  line-height: 1.5 !important;
+}
+.entry-post p {
+  line-height: 1.5 !important;
+}
 #twitter {
   color: #6e6e6e;
 }
@@ -192,6 +202,7 @@
 /* Widget categories */
 .widget.widget_categories ul li a {
   line-height: 40px;
+  text-decoration: none;
 }
 .widget.widget_categories ul li.active a,
 .widget.widget_categories ul li a:hover {
@@ -220,11 +231,13 @@
 .widget.widget-news-latest ul li h6 a {
   font-weight: 400;
   color: #333333;
+  text-decoration: none;
 }
 .widget.widget-news-latest ul li .post_meta {
   line-height: 20px;
   color: #c5c5c5;
   display: block;
+  text-decoration: none;
 }
 .widget.widget-news-latest ul li h6 a:hover {
   color: #f63440;
@@ -238,6 +251,7 @@
   background-color: #eeeeee;
   padding: 0px 17px;
   margin: 0px 8px 12px 0px;
+  text-decoration: none;
 }
 .widget.widget_tag .tag-list a.active,
 .widget.widget_tag .tag-list a:hover {
