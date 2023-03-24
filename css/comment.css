@@ -24,7 +24,7 @@
   color: #f63440;
 }
 #text-area {
-  height: 150px;
+  height: 150px !important;
   width: 100%;
   padding: 15px;
   border: 1.5px solid #f0eded;
