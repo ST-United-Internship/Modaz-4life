@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 .content-tab {
   max-width: 100%;
 }
@@ -292,16 +291,18 @@
     -webkit-line-clamp: 7;
   }
 
-  .flat-tabs .image-right .text-wrap {
-    padding: 15px;
-  }
-
   .flat-tabs .content-inner > .inner.max-width-40 {
     max-width: 100%;
   }
 
   .flat-tabs .content-inner > .inner {
     padding: 39px 0 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flat-tabs .text-wrap {
+    padding: 15px !important;
   }
 }
 
